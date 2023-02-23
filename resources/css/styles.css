@@ -1,0 +1,278 @@
+body, html, footer, div, h1-h6{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 900px;
+}
+
+header{
+    font-family: 'Lilita One';
+    word-spacing: 5px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 40px;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+/* container title */
+
+#html-title{
+    color: black;
+    cursor: pointer;
+}
+
+#css-title{
+    color: black;
+    cursor: pointer;
+}
+
+#js-title{
+    color: black;
+    cursor: pointer;
+}
+
+/* container title hover */
+
+#html-title:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#css-title:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#js-title:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* header design */
+
+#html-header{
+    color: #e34c26;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+#css-header{
+    color: #264de4;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+#js-header{
+    color: #F0DB4F;
+    font-weight: 900;
+    font-size: 80px;    
+}
+
+#cheat-sheet-header{
+    color: black;
+    font-size: 80px; 
+}
+
+/* homepage */
+
+#homepage{
+    width: 100%;
+    height: 100vh;
+}
+
+h3{
+    font-family: 'Lilita One';
+}
+
+/* container */
+
+.container{
+    align-items: center;
+    height: auto;
+    max-height: 800px;
+    gap: 30px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/*card*/
+
+.card-html{
+    height: 600px;
+    width: 15%;
+    padding: 20px 35px;
+    background-color: #e34c26;
+    border-radius: 20px;
+    margin: 0 30px;
+    position: relative;
+    overflow-y: auto;
+    text-align: center;
+    color: black;
+    opacity: .9;
+    display: inline-block;
+    text-align: center;
+}
+
+.card-css{
+    height: 600px;
+    width: 15%;
+    padding: 20px 35px;
+    background-color: #264de4;
+    border-radius: 20px;
+    margin: 0 30px;
+    position: relative;
+    overflow-y: auto;
+    text-align: center;
+    color: black;
+    opacity: .9;
+    display: inline-block;
+    text-align: center;
+}
+
+.card-js{
+    height: 600px;
+    width: 15%;
+    padding: 20px 35px;
+    background-color: #F0DB4F;
+    border-radius: 20px;
+    margin: 0 30px;
+    position: relative;
+    overflow-y: auto;
+    text-align: center;
+    color: black;
+    opacity: .9;
+    display: inline-block;
+    text-align: center;
+
+}
+
+/* references */
+
+.html-reference{
+    padding: 3px;
+    color: white;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 2.2;
+    border-radius: 50px;
+    font-family: 'Lilita One';
+    font-weight: bold;
+}
+
+.css-reference{
+    padding: 3px;
+    color: white;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 2;
+    border-radius: 50px;
+    font-family: 'Lilita One';
+    font-weight: bold;
+}
+
+.js-reference{
+    padding: 3px;
+    color: white;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 2;
+    border-radius: 50px;
+    font-family: 'Lilita One';
+    font-weight: bold;
+}
+
+.html-reference, .css-reference, .js-reference{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+/* hover */
+
+.html-reference:hover, .css-reference:hover, .js-reference:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* footer section*/
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 100px;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    }
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social {
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+}
+
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  z-index: 1;
+}
+  
+  .overflow-container {
+    position: relative;
+    z-index: 2;
+  }
+   
+
+  @media screen and (max-width: 600px) {
+  
+    #card-html,
+    #card-css,
+    #card-js {
+    width: 80%;
+     }
+}
+
